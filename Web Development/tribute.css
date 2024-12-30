@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    animation-name: bgcolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+span{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(2, 2, 97);
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.img{
+    color: white;
+    text-align: center;
+    font-size: 2.1em;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+p{
+    color: darkblue;
+    font-size: 1em;
+    font-style: italic;
+}
+h1{
+    font-size: 2.5em;
+    color: black;
+}
+.content{
+    color: white;
+    font-size: 1.6em;
+    border-right:  25px solid rgb(117, 117, 117);
+    border-bottom:  25px solid rgb(117, 117, 117);
+    background-color: rgb(194, 194, 194) ;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;   
+}
+.content h1{
+    text-align: center;
+}
+.content:hover{
+    background-color: lightyellow;
+}
+@keyframes bgcolor{
+    0%{background-color: lightblue;}
+    20%{background-color: lightcoral;}
+    40%{background-color: lightpink;}
+    60%{background-color: lightgoldenrodyellow;}
+    80%{background-color: lightseagreen;}
+    100%{background-color: lightyellow;}
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
